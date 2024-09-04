@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  overflow: hidden;
+  --tw-bg-opacity: 1;
+  background-color: rgb(92 22 78 / var(--tw-bg-opacity));
+}
+
+.webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+}
+
+.pen-nib {
+  display: none;
+}

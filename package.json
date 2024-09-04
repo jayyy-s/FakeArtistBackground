@@ -1,0 +1,25 @@
+{
+  "homepage": "https://jayyy-s.github.io/FakeArtistBackground/",
+  "name": "fakeartistbackground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "lil-gui": "^0.19.2",
+    "three": "^0.168.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "vite": "^5.4.2",
+    "vite-plugin-restart": "^0.4.1"
+  }
+}
